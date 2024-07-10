@@ -1,0 +1,73 @@
+<from action ="/submit" method="post">
+    <fieldset>
+        <legend>Personal Info</legend>
+        <div>
+            <label for="Username">Username :</label>
+            <input type="text" id="Username" placeholder="Enter the name"/>
+        </div>
+        <div>
+            <label for="Gmail">Gmail :</label>
+            <input type="email" id="Gmail" placeholder="Eenter your email" autocomplete="off" 
+            required value="sukdeb02022@gmail.com" readonly disabled />
+        </div>
+        <br>
+        <div>
+            <label for="textarea">Message :</label>
+            <textarea name="" id="textarea"cols="3" rows="5" placeholder="write text something here"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="password">password :</label>
+            <input type="password" id="password" placeholder="Enter yourpassword"/>
+        </div>
+        <br>
+        <div>
+            <label for="number">Number :</label>
+            <input type="number" id="number" max="5" min="1" value="1"/>
+        </div>
+        <br>
+        <br>
+        <div>
+            <label for="number">Mobile Nnumber :</label>
+            <input type="number" id="number" placeholder="Enter your mobile number"/>
+        </div>
+        <br>
+        <div>
+            <label for="gender">gender :</label>
+            <input type="radio" name="gender" value="Male"/>Male
+            <input type="radio" name="gender" value="Female"/>Female
+        </div> 
+        <br>
+        <div>
+            <label for="hobbies">Favorite Hobbies :</label>
+            <input type="checkbox" name="interest" value="music"/>Music
+            <input type="checkbox" name="interest" value="sports"/>sports
+        </div>  
+        <br>
+        <div>
+            <label for="country">Favorite Country :</label>
+            <select name="country" id="country">
+                <option value="INDIA">INDIA</option>
+                <option value="USA">USA</option>
+                <option value="ENGLAND">ENDLAND</option>
+            </select>
+        </div>  
+        <br>
+        <div>
+            <label for="country">Select a country</label>
+            <input type="text"id="country"name="country"list="countries"/>
+            <datalist id="countries">
+                <option value="INDIA"></option>
+                <option value="USA"></option>
+                <option value="ENGLAND"></option>
+            </datalist>
+        </div>
+        <br>
+        <div>
+            <label for="file">Select file</label>
+            <input type="file" name="fileupload"/>
+        </div>
+        <br>
+        <input type="submit" value="submit">
+    </fieldset>
+</from>

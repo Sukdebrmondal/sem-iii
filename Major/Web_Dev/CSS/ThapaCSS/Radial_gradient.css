@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* Radial Gradient in css */
+    /* background-image: radial-gradient(red,yellow); */
+    /* background-image: radial-gradient(circle,red,yellow,green); */
+    /* background-image:radial-gradient(circle,red 20%, yellow 40% , green 40%); */
+    /* repeating radial gradient */
+    /* background-image: repeating-radial-gradient(#ff5733,#ffc300,#a8df8e 50px); */
+    background-image: radial-gradient(circle at center,
+    #ff5733 0%,
+    #ffc300 20%,
+    #ff5733 40%, 
+    #2980b9 60%,
+    #33ff57 80%,
+    #2980b9 100%
+    );
+}

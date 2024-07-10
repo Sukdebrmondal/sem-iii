@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    /* linear-gradient */
+    /* background-image: linear-gradient(red,yellow); */
+    /* background-image: linear-gradient(to right,red,yellow); */
+    /* background-image: linear-gradient(360deg,red,yellow); */
+    /* background-image:linear-gradient(to bottom right,yellow,blue) ; */
+    /* background-image: linear-gradient(to right,rgba(255,0,0,0.5),rgba(255,0,0,0.5)); */
+    /* background-image:linear-gradient(to bottom right,yellow,rgb(21, 21, 147),red,pink) ;  */
+
+    /* repeating linear gradient */
+    /* background-image: repeating-linear-gradient(45deg,#d2e0fb,#79ac78 45px); */
+    /* background-image: repeating-linear-gradient(45deg,#d2e0fb,#3387c8 45px); */
+
+    /* color overlap on image */
+    /* background-image: linear-gradient(to right,
+    rgba(5,25,55,0.6),
+    rgba(0,77,122,0.6),
+    rgba(0,135,147,0.6),
+    rgba(0,191,114,0.6),
+    rgba(168,235,18,0.6)
+    ),
+    url("skill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+     */
+
+     /* Radial Gradient in css */
+     /* background-image: radial-gradient(red,yellow); */
+    background-image: radial-gradient(circle,red,yellow);
+}

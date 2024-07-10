@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0,0%,94%);
+    display: grid;
+    place-items: center;
+}
+img{
+    width: 50%;
+    border-radius: 20px;
+    box-shadow: rgba(0,0,0,0.16) 0px 10px 36px 0px;
+    /* Filter in CSS */
+    /* filter: grayscale(); */
+    /* filter: invert(); */
+    /* filter: opacity(0.5); */
+    /* filter:blur() */
+    /* filter:brightness(1.5); */
+    /* filter:contrast(1.5); */
+    /* filter:saturate(3.5); */
+    /* filter:hue-rotate(360 deg); */
+    /* filter:invert(0.7); */
+    /* filter:sepia(1); */
+    filter:blur(0.9px) grayscale(0.5) contrast(1.2) brightness(150%);
+
+}

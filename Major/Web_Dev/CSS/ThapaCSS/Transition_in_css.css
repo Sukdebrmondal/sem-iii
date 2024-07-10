@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: black;
+    color: azure;
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64px 0;
+    margin: 0 auto;
+    display: grid;
+    align-items: center;
+}
+
+.grid{
+    display: grid;
+    align-items: center;
+    gap:64px;
+}
+
+.grid-two-column{
+    grid-template-columns:repeat(2,1fr) ;
+}
+
+.hero-content h1{
+    font-size: 48px;
+}
+
+.hero-content p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin: 20px 0 4px 0;
+}
+
+.img{
+    max-width: 80%;
+    height: auto;
+    /* use transition in image */
+    transition: scale 2s linear;
+}
+
+a{
+    background-color: transparent;
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 05px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 5px solid #fff;
+    color: #fff;
+    width: 200px;
+    text-align: center;
+
+    /* TRANSITION CODE STARTS HERE */
+    /* transition-property:width, color, background-color ; */
+     /*transition-duration: 2s; */
+    /* transition-timing-function: ease-in-out; */
+    /* transition-timing-function: ease-in; */
+    /* transition-timing-function: linear; */
+    /* transition-delay: 2s; */
+    /* All in one */
+    transition: all 1s linear;
+    /* transition: width 1s linear 2s; */
+}
+
+.hero-content a:hover{
+    background-color:blue;
+    /* background-color: #fff;*/
+    color:#fff;
+    width: 400px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px,
+    rgba(17, 17, 26, 0.1) 0px 24px 80px;
+    /* box-shadow: rgb(85, 91, 255) 0px 0px 0px 3px, 
+    rgb(31, 193, 27) 0px 0px 0px 6px, 
+    rgb(255, 217, 19) 0px 0px 0px 9px, 
+    rgb(255, 156, 85) 0px 0px 0px 12px,
+    rgb(255, 85, 85) 0px 0px 0px 15px; */
+}
+
+img:hover{
+    scale: 1.2;
+}

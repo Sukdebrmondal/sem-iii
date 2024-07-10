@@ -1,0 +1,42 @@
+/* h1{
+    color:#d52a6fde;
+} */
+/* p{
+    color: #10a008;
+} */
+ /* class selector*/
+/* .para{
+    color:#cf8525;
+} */
+/*Id selector*/
+/* #btn{
+    background-color: black;
+    color:green;
+}
+/*pseudo-class*/
+/*
+#btn:hover{
+    background-color: black;
+    color: white;
+}
+h1:hover{
+    color:#0c12ca;
+}
+
+h1{
+    color: hsl(0, 100%, 50%);
+}
+
+p{
+    color: rgba(0, 0, 255, 1);
+}
+h1{
+    color: hsla(236, 86%, 43%, 0.8)
+} */
+
+.Hero{
+    color: rgb(47, 20, 224);
+}
+p{
+    color: currentColor;
+}

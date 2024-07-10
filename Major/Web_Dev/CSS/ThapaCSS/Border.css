@@ -1,0 +1,64 @@
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#main-heading{
+    font-size: 36px;
+    color:black;
+    border:8px solid black;
+}
+/* p{
+    font-size: 18px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 1.56;
+    background-color: #5e9de9;*/
+    /* border-here*/
+   /* border:10px solid #031800 ; 
+} 
+*/
+
+/* .section-border{
+    width: 1000px;
+    color: rgb(142, 26, 209);
+    background-color: rgb(36, 17, 179); */
+    /* border:10px solid #001eff ; */
+    /*wite each property individually*/
+    /* border-width: 15px;
+    border-style: solid;
+    border-color: #003180; */
+    /* we can write then individually too */
+    /* border-top:10px solid #947b0c ;
+    border-right: 15px dotted rgb(15, 215, 115);
+    border-bottom:10px ridge #260d96  ;
+    border-left: 15px double rgb(15, 215, 115);
+     */
+
+     /* NOw further we can go more deeper with each individual values */
+    /* border-top-width: 15px;
+    border-top-style: solid;
+    border-top-color: aqua; * 
+}
+    */
+
+div{
+    width: 500px;
+    height: 500px;
+    background-color: #5e9de9;
+    /* border-radius: 100px 10px 250px 0; */
+    /* border-radius: 50%;*/
+    /* border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%; */
+    /* https://9elements.github.io/fancy-border-radius/full-control.html */
+    border-radius: 100% 0% 100% 0% / 100% 0% 100% 0% ;
+    /* https://10015.io/tools/css-border-radius-generator */
+    background-image: linear-gradient(
+        to right top,
+        #051937,
+        #004d7a,
+        #008793,
+        #00bf72,
+        #a8eb12
+    ); 
+     
+    
+}

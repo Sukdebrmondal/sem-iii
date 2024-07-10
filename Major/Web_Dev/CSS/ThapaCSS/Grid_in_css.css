@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+    min-width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2c3639;
+}
+
+.grid-container{
+    width: 80%;
+    margin: 100px auto;
+    
+    background-color: rgb(44, 146, 205);
+    color: black;
+    box-shadow: rgba(0,0,0,0.25) 0px 54px 55px,rgba(0,0,0,0.12) 0px 4px 6px,
+    rgba(0,0,0,0.17) 0px -12px 30px, rgba(0,0,0,0.09) 0px -3px 5px;
+
+    /* grid starts */
+    display: grid;
+    /* grid-template-rows: 150px 150px; */
+    /* grid-template-rows: 1fr 1fr; */
+    /* grid-template-columns: 150px 150px 150px; */
+    /* grid-template-columns: 150px 150px 1fr; */
+    /* grid-template-columns: 1fr 1fr 1fr; */
+
+    /* grid-template-columns:repeat(space, width); */
+    /* grid-template-columns:repeat(3,1fr); */
+    grid-template-rows: repeat(2,250px);
+    grid-auto-rows:250px;
+    flex-wrap: wrap;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    /* grid-template-columns: 1fr 2fr 1fr; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns:1fr min-content repeat(3,1fr); */
+    /* grid-template-columns:1fr max-content repeat(3,1fr); */
+    /* grid-template-columns: 1fr minmax(250px, 300px) repeat(1, 1fr); */
+    /* grid-template-columns: 1fr minmax(250px, 1fr) repeat(1, 1fr); */
+    /* grid-template-columns: repeat(3,minmax(250px,1fr)); */
+    /* grid-template-columns: repeat(auto-fill,minmax(250px,1fr)); */
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-template-columns: repeat(3,minmax(250px,1fr));
+
+    /*gap */
+    /* grid-row-gap: 50px;
+    grid-column-gap: 50px; */
+    /* grid-gap:50px */
+    /* row-gap: 50px;
+    column-gap: 50px; */
+    gap:50px;
+
+    /* align */
+    align-items: center;
+    /* align-items:self-start ; */
+    /* align-items:self-end;*/
+    align-items: stretch; 
+
+    /* justify horizontal */
+    /* justify-items:self-start; */
+    /* justify-items: self-end; */
+    /* justify-items:center; */
+    /* justify-items: end; */
+    justify-items: stretch;
+
+    /* Text popsition */
+    
+
+}
+
+/* responsive  */
+@media(width<1200px){
+    .grid-container{
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+
+    }
+}
+
+.item{
+    
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+    font-size: 40 px;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+/* we can change the positions easily */
+
+.item-1{
+    background-color:aqua;
+    /* grid-row-start: 2;
+    grid-row-end: 3; */
+    /* grid-row:2/3; */
+    /* grid-column-start:2 ;
+    grid-column-end: 3; */
+    /* grid-column: 2/3; */
+    /* grid-area: 2/2/3/3; */
+}
+
+.item-2{
+    background-color:rgb(36, 194, 139);
+}
+
+.item-3{
+    background-color:aqua;
+    /* grid-row: 1/2;
+    grid-column: 2/4; */
+}
+
+.item-4{
+    background-color:rgb(217, 188, 61);
+}
+
+.item-5{
+    background-color:aqua;
+}
+
+.item-6{
+    background-color:rgb(140, 19, 156);
+}
+
+
+
+

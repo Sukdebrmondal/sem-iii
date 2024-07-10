@@ -1,0 +1,121 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "jost";
+}
+
+body{
+    background-color: #0a0a0a;
+    color: rgb(232, 242, 242);
+    height: 100vh;
+}
+
+.container{
+    height: 100vh;
+    max-width: 1320px;
+    padding: 64 0;
+    margin: 0 auto;
+    display: grid;
+    place-items: center;
+}
+
+.grid{
+    display: grid;
+    place-items: center;
+    gap:64px;
+}
+
+.grid-two-column{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.hero-content h1{
+    font-size: 48px;
+    text-align: left;
+    position: relative;
+    display: inline-block;
+}
+
+/* Before Pseudo Element */
+.hero-content h1::before{
+    content: "\f121";  
+    /* content: "Sukdeb Mondal"; */
+    font-size: 12px;
+    position:absolute;
+    top:-12px;
+    left: 16px;
+    letter-spacing: 6px;
+}
+
+
+/* After Pseudo Element */
+.hero-content h1::after{
+    content: "";
+    position: absolute;
+    right: 0;
+    border: 2px solid red;
+    width: 80%;
+}
+
+
+.hero-content p{
+    font-size: 18px;
+    letter-spacing: 1 px;
+    margin: 2rem 0 4rem 0;
+
+}
+
+/* pseudo Element  */
+.hero-content p::first-letter{
+    font-size: 48px;
+    color: #a41d4a;
+    font-weight: bold  ;
+}
+
+/* pseudo Element  */
+.hero-content p::first-line{
+    text-decoration: underline;
+}
+/* pseudo Element  */
+.hero-content p::selection{
+    background-color: rgba(255,204,112,0.5);
+}
+
+img{
+   width: 100%;
+   height: auto; 
+}
+.hero-content a{
+    color: #a41d4a;
+}
+
+a{
+    background-color: black;
+    display: inline-block;
+    padding: 12px 32px;
+    text-decoration: none;
+    border-radius: 05px;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #0d8855;
+    color: #0ca83b;
+    width: 200px;
+    text-align: center;
+    
+}
+
+
+
+
+
+
+
+
+/* .hero-content a:hover{
+    background-color: #fff;
+    color: #000;
+    width: 300px;
+} */
+

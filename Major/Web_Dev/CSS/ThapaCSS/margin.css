@@ -1,0 +1,74 @@
+/* *{
+    margin: 0;
+    padding: 0;
+     /* Box-sizing:border-box  
+} */
+
+html{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top right,
+    rgba(5,25,55,0.1),
+    rgba(0,77,122,0.1),
+    rgba(0,135,1147,0.1)),
+    url("skill.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#main-heading{
+    padding: 40px 0;
+    font-weight: bold;
+    font-size:36px;
+    color:#f4f3f1;
+    text-align: center;
+}
+
+p{
+    line-height: 1.6;
+    letter-spacing: 1px;
+    font-size: 10px;
+    text-shadow: 2px 2px 20px,rgb(237, 237, 234);
+}
+.section-one{
+    padding:50px;
+    width: 1200px;
+    background-color: #63bd51;
+    color:#fff;
+     /* margin  four values: margin top right bottom left 
+    margin:25px 25px 25px 25px; */
+    /* margin  three value: margin:top right-left bottom 
+    margin: 100px 200px 150px;*/
+    /* margin two value: margin: top-bottom right-left 
+    margin:100px,100px;*/
+    /* one value:margin:all four direction */
+    /* margin:200px */
+   
+    /* margin-left:100px; */
+    margin:auto;
+    margin-bottom: 50px;
+
+}
+
+.section-two{
+    padding:50px;
+    width: 1200px;
+    background-color: #4ca0cd;
+    color:#fff;
+    /* margin values: margin top right bottom left 
+    margin:50px 50px 50px 50px;*/
+    /* margin  three value: margin:top right-left bottom 
+    margin: 100px 200px 150px;*/
+    /* margin two value: margin: top-bottom right-left 
+    margin:100px,100px;*/
+    /* one value:margin:all four direction 
+    margin: 200px;*/
+    /* margin-top: 200px; */
+    margin: auto;
+    margin-top:-50px ;
+}
