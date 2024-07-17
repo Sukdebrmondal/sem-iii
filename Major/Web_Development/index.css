@@ -25,6 +25,7 @@ section{
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
+    backdrop-filter: blur(8px);
 }
 
 .section-1{
@@ -33,6 +34,7 @@ section{
     background-size: 100% 100%;
     backdrop-filter: blur(2px);
     background-image: url("skill.jpg");
+    backdrop-filter: blur(8px);
 }
 .section-2{
     font-weight: bold;
@@ -40,10 +42,11 @@ section{
     background-size: 100% 100%;
     background-image: url("skill_india.webp");
     background-attachment: fixed;
+    backdrop-filter: blur(10px);
     
 }
 .section-3{
-    color: aqua;
+    color: rgb(16, 10, 11);
     font-weight: bold;
     background-repeat: no-repeat;
     background-size: 100% 100%;
